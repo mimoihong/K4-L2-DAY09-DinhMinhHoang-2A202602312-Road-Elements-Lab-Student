@@ -1,10 +1,7 @@
 # Revision log
 
-Guideline v1 = bản nháp đầu; v2 = sau calibration nội bộ; v3 = sau blind handoff. Mỗi lần tăng `Version` trong
-`02_guideline.md`, thêm một hoặc nhiều dòng vào bảng: đổi gì và vì sao, kèm bằng chứng (sample_id, dòng
-calibration report, câu hỏi trong clarification log, feedback của peer).
-
-Cột Version ghi dạng `v1`, `v2`, `v3` — `make status` tìm dòng bảng có `v2` và dòng có `v3`.
-
 | Version | Đổi gì | Vì sao | Bằng chứng |
 |---|---|---|---|
+| v1 | Bản nháp đầu tiên | Thiết lập đầy đủ 10 mục theo cấu trúc chuẩn | Khung sườn ban đầu |
+| v2 | Bổ sung quy tắc ban đêm (thấy vỏ vs không thấy vỏ), ngưỡng kích thước tối thiểu (8px) và làm rõ POV relevance | Hiệu chỉnh từ kết quả calibration nội bộ để giải quyết bất đồng annotator | BDD18, BDD07, BDD13 trong `06_calibration_report.csv` |
+| v3 | Chuẩn hóa quy định về lóa nắng (sun glare) và trường hợp đèn người đi bộ trên vỉa hè | Hoàn thiện từ kết quả và câu hỏi blind handoff của nhóm tester | Clarification log và feedback usability từ tester |

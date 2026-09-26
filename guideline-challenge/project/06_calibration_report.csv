@@ -1,1 +1,4 @@
 sample_id,item,values_by_annotator,diagnosis,action,rule_change
+BDD18,state,an=green; binh=unknown,guideline_gap,revise_rule,Quy định rõ ban đêm nếu thấy bóng xanh sáng rõ thì gán state=green và chỉ gán unknown khi không phân biệt được màu
+BDD07,relevance,an=relevant; binh=not_relevant,guideline_gap,add_example,Bổ sung ví dụ ngã tư có đèn rẽ trái riêng biệt thì đèn rẽ là not_relevant đối với xe đi thẳng
+BDD13,traffic_light,an=label; binh=ignore,guideline_gap,revise_rule,Thiết lập ngưỡng kích thước tối thiểu chiều cao hộp đèn >= 8px mới được label còn nhỏ hơn thì ignore

@@ -1,8 +1,8 @@
-CVAT task reference — thay mọi placeholder mới là xong.
+CVAT task reference
 
-CVAT version: TODO
-Task calibration (tên, id): TODO
-Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: TODO
-File export đã nộp (đường dẫn trong repo): TODO
-Guideline version dán trong Guide của task: TODO
-Ghi chú cho người tiếp nhận: TODO
+CVAT version: CVAT 2.75.1 tại http://localhost:8080
+Task calibration (tên, id): traffic light guideline (ID: 19)
+Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: traffic-light-v3 (ID: 19)
+File export đã nộp (đường dẫn trong repo): project/07_blind_handoff/peer_output/traffic_light_export.zip
+Guideline version dán trong Guide của task: v3
+Ghi chú cho người tiếp nhận: Task cấu hình chuẩn 2D Bounding Box cho traffic_light với 3 thuộc tính state, relevance, pictogram và checkbox needs_review.

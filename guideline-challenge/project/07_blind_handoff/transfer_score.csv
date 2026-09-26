@@ -1,0 +1,11 @@
+sample_id,decision_id,expected,severity,kind,peer_evidence,correct,note
+BDD25,d1,label=traffic_light x1,major,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],1,Đúng nhãn và số lượng hộp đèn
+BDD25,d2,state=green,critical,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],1,Nhận diện đúng trạng thái đèn xanh
+BDD25,d3,relevance=relevant,critical,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=green],1,Đúng POV relevance cho làn xe mình
+BDD26,d1,label=traffic_light x1,major,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=red],1,Phát hiện đúng đèn ban đêm
+BDD26,d2,state=red,critical,decision,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=red],1,Đúng trạng thái đèn đỏ ban đêm
+BDD26,d3,geometry: box ôm sát quầng sáng đỏ không đoán vỏ,minor,geometry,traffic_light [needs_review=false;pictogram=circle;relevance=relevant;state=red],1,Tuân thủ rule ban đêm không đoán không gian vỏ
+BDD12,d1,IGNORE,major,decision,none,1,Đúng quy tắc loại trừ bị che khuất > 80%
+BDD17,d1,label=traffic_light x1,major,decision,traffic_light [needs_review=true;pictogram=circle;relevance=relevant;state=unknown],1,Phát hiện đúng đèn trời mưa
+BDD17,d2,needs_review=true,major,decision,traffic_light [needs_review=true;pictogram=circle;relevance=relevant;state=unknown],1,Đúng rule kích hoạt escalation khi chói lóa
+BDD17,d3,relevance=relevant,critical,decision,traffic_light [needs_review=true;pictogram=circle;relevance=relevant;state=unknown],1,Đúng relevance cho làn xe chủ
