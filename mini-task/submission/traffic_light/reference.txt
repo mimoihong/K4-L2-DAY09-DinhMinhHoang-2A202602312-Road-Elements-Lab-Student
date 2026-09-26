@@ -1,0 +1,4 @@
+task: traffic_light
+opened_at: 2026-09-27T05:22:34+07:00
+lock_sha256: 35fb2dd245653deed0f57e6c72abe75ca9d7f191c1cb285ea312ff101ea5fd4d
+source: refs\traffic_light.zip

@@ -1,0 +1,4 @@
+task: drivable
+opened_at: 2026-09-27T05:21:48+07:00
+lock_sha256: b22a1b4ea2f366132be884f89b5f80f0a51331eb0daf39db5f0bc23467db8843
+source: refs\drivable.zip

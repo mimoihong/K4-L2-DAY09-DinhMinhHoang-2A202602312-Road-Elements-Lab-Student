@@ -1,0 +1,11 @@
+task: traffic_light
+sha256: 35fb2dd245653deed0f57e6c72abe75ca9d7f191c1cb285ea312ff101ea5fd4d
+code: 35FB-2DD2
+locked_at: 2026-09-27T05:22:31+07:00
+shapes: traffic_light=150
+cvat_owner: labrat2060
+cvat_export: task 18 "traffic_light-DinhMinhHoang"
+cvat_created: 2026-09-26 03:47:12.665562+00:00
+cvat_dumped: 2026-09-26 22:16:21.174202+00:00
+shape_sources: manual=5
+relock_count: 0

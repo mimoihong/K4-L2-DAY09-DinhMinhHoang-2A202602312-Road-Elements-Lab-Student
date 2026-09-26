@@ -1,1 +1,6 @@
 id,task,sample,case,rule,evidence,status,proposed_by,ratified_by,date
+1,lane,b75f355e,vạch mờ dần,Dừng polyline tại vị trí vạch sơn bị mờ khó phân biệt với mặt đường,b75f355e đoạn lề bên phải,ratified,DinhMinhHoang,DinhMinhHoang,2026-09-26
+2,lane,c1589305,vạch dừng ngã tư,Vạch dừng ngã tư gán laneDirection là vertical,c1589305 vạch stop line trước ngã tư,ratified,DinhMinhHoang,DinhMinhHoang,2026-09-26
+3,drivable,bb5cc516,làn ngược chiều,Không gán alternative cho làn ngược chiều có vạch liền chia cách,bb5cc516 mặt đường hai chiều,ratified,DinhMinhHoang,DinhMinhHoang,2026-09-26
+4,traffic_sign,00054.png,biển cảnh báo,Biển tam giác viền đỏ cảnh báo người qua đường thuộc sign_family danger,00054.png biển tam giác người đi bộ,ratified,DinhMinhHoang,DinhMinhHoang,2026-09-26
+5,traffic_light,dayClip5--01606.jpg,đèn ngã tư phía xa,Gán nhãn đèn nhỏ ở ngã tư phía xa với relevance=not_relevant để phát hiện sớm,dayClip5--01606.jpg track B#3 và B#4,ratified,DinhMinhHoang,DinhMinhHoang,2026-09-26

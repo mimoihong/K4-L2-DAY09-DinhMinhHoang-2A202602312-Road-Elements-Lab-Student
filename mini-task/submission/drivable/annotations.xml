@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>16</id>
+      <name>drivable-DinhMinhHoang</name>
+      <size>5</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 03:47:00.616854+00:00</created>
+      <updated>2026-09-26 22:15:04.162537+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>4</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>7</id>
+          <start>0</start>
+          <stop>4</stop>
+          <url>http://localhost:8080/api/tasks/16/dataset/export/api/jobs/7</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>labrat2060</username>
+        <email>hoangdinh1529@gmail.com</email>
+      </owner>
+      <assignee>
+        <username>labrat2060</username>
+        <email>hoangdinh1529@gmail.com</email>
+      </assignee>
+      <labels>
+        <label>
+          <name>drivable_area</name>
+          <color>#00A65A</color>
+          <type>polygon</type>
+          <attributes>
+            <attribute>
+              <name>areaType</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+direct
+alternative</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>image_context</name>
+          <color>#AA00FF</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>weather</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+clear
+partly cloudy
+overcast
+rainy
+snowy
+foggy
+undefined</values>
+            </attribute>
+            <attribute>
+              <name>timeofday</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+daytime
+dawn/dusk
+night
+undefined</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-09-26 22:15:44.573839+00:00</dumped>
+  </meta>
+  <image id="0" name="bb5cc516-c98d1fbe.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="1280.00,376.02;1279.63,362.18;1091.14,331.35;1070.61,343.89;982.84,344.29;929.80,343.01;852.65,316.41;854.49,292.29;688.68,269.61;680.05,284.95;612.41,286.62;603.46,263.30;576.78,263.30;577.82,302.60;485.58,302.20;480.46,267.53;452.27,267.85;393.33,277.60;351.56,280.23;346.20,295.41;331.03,311.86;307.87,323.44;306.75,343.97;280.39,351.96;252.44,367.93;248.61,401.79;275.36,401.79;339.58,404.51;410.58,410.10;709.90,413.30;1280.00,421.25" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="1" name="be860305-899a96c3.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="583.41,407.38;421.28,405.79;0.00,539.03;0.00,539.77;92.94,531.74;211.23,522.47;335.02,520.64;444.04,518.80;492.10,518.80" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="545.81,513.74;625.79,359.77;649.63,361.27;923.03,488.61;1001.83,530.95" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="2" name="c068a67b-03b6e200.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="264.46,683.57;195.25,685.36;64.59,692.52;0.16,700.27;-0.00,668.61;0.00,582.61;137.98,539.79;365.34,470.04;505.72,426.31;603.92,395.23;640.43,383.54;671.52,371.37;671.28,378.82;670.56,393.26" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="1025.30,719.42;1280.00,720.00;1280.00,693.20;1279.45,669.91;760.47,373.57;760.05,391.71" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="299.30,682.60;642.17,423.60;772.43,422.03;984.25,720.00;961.96,720.00;902.54,712.60;749.24,696.57;579.91,683.83;476.13,678.25" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="3" name="c3cd6c82-b5d52beb.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="484.65,582.17;507.11,539.40;537.04,463.48;557.36,406.81;563.78,385.43;640.76,385.43;691.01,382.01;685.45,363.40;687.59,335.61;717.31,339.45;742.23,344.59;776.01,350.89;809.37,356.78;874.81,369.07;931.37,380.41;1016.59,398.05;1204.23,438.36;1280.00,455.20;1280.00,608.74;1238.56,602.05;1098.06,574.04;968.69,562.92;841.66,560.46" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+  <image id="4" name="c723ad21-efed33e5.jpg" width="1280" height="720">
+    <polygon label="drivable_area" source="manual" occluded="0" points="284.76,565.17;467.98,563.73;601.09,569.46;721.33,579.48;908.84,598.09;1103.51,622.42;1279.57,661.07;1279.57,569.46;1120.68,526.52;983.27,495.03;870.77,467.12;790.18,448.80;663.93,424.03;636.88,444.07;551.28,456.81;466.83,464.40;347.17,426.90;328.99,400.13;325.70,375.65;273.31,368.07;232.66,365.92;187.85,359.48;178.26,376.65;161.80,388.68;69.91,393.54;95.53,401.13;123.87,410.86;152.07,427.32;177.69,444.64;217.06,476.42" z_order="0">
+      <attribute name="areaType">direct</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+    <polygon label="drivable_area" source="manual" occluded="0" points="1280.00,539.76;1278.73,501.75;1066.19,454.62;909.09,431.52;736.29,405.64;658.66,393.63;650.34,412.11;709.49,424.12;799.12,442.61;884.14,463.86;1013.52,491.58;1280.00,557.05" z_order="0">
+      <attribute name="areaType">alternative</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polygon>
+  </image>
+</annotations>

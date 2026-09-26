@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>17</id>
+      <name>traffic_sign-DinhMinhHoang</name>
+      <size>7</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 03:47:06.219619+00:00</created>
+      <updated>2026-09-26 04:39:11.332864+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>6</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>8</id>
+          <start>0</start>
+          <stop>6</stop>
+          <url>http://localhost:8080/api/tasks/17/dataset/export/api/jobs/8</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>labrat2060</username>
+        <email>hoangdinh1529@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>traffic_sign</name>
+          <color>#1565C0</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>sign_family</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+prohibitory
+mandatory
+danger
+other
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>sign_class</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+00 speed limit 20
+01 speed limit 30
+02 speed limit 50
+03 speed limit 60
+04 speed limit 70
+05 speed limit 80
+06 restriction ends 80
+07 speed limit 100
+08 speed limit 120
+09 no overtaking
+10 no overtaking (trucks)
+11 priority at next intersection
+12 priority road
+13 give way
+14 stop
+15 no traffic both ways
+16 no trucks
+17 no entry
+18 danger
+19 bend left
+20 bend right
+21 bend
+22 uneven road
+23 slippery road
+24 road narrows
+25 construction
+26 traffic signal
+27 pedestrian crossing
+28 school crossing
+29 cycles crossing
+30 snow
+31 animals
+32 restriction ends
+33 go right
+34 go left
+35 go straight
+36 go right or straight
+37 go left or straight
+38 keep right
+39 keep left
+40 roundabout
+41 restriction ends (overtaking)
+42 restriction ends (overtaking (trucks))
+unknown</values>
+            </attribute>
+            <attribute>
+              <name>readable</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>uncertain</default_value>
+              <values>uncertain
+yes
+no</values>
+            </attribute>
+            <attribute>
+              <name>truncated</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>relevant_to_ego</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>unknown</default_value>
+              <values>unknown
+yes
+no</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-09-26 22:16:01.064986+00:00</dumped>
+  </meta>
+  <image id="0" name="00026.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="295.23" ytl="343.70" xbr="357.60" ybr="412.08" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="454.30" ytl="412.84" xbr="493.95" ybr="451.96" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+  </image>
+  <image id="1" name="00054.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="457.70" ytl="521.04" xbr="476.30" ybr="538.86" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1114.20" ytl="437.85" xbr="1152.76" ybr="472.30" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1118.30" ytl="473.56" xbr="1145.28" ybr="501.31" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1119.08" ytl="503.47" xbr="1147.44" ybr="518.42" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="975.15" ytl="442.96" xbr="999.44" ybr="468.40" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+  </image>
+  <image id="2" name="00073.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="724.57" ytl="431.84" xbr="752.75" ybr="457.50" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="728.14" ytl="457.70" xbr="748.83" ybr="476.25" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="728.62" ytl="476.54" xbr="748.82" ybr="497.84" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="427.74" ytl="430.23" xbr="453.31" ybr="454.20" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="432.03" ytl="454.33" xbr="452.11" ybr="474.95" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="432.29" ytl="475.35" xbr="452.38" ybr="493.40" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+  </image>
+  <image id="3" name="00088.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="411.96" ytl="440.39" xbr="434.75" ybr="464.40" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="412.60" ytl="466.01" xbr="435.16" ybr="488.80" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="766.58" ytl="290.31" xbr="892.89" ybr="396.07" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="741.76" ytl="421.53" xbr="783.96" ybr="498.42" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="957.05" ytl="465.90" xbr="982.86" ybr="490.46" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="956.87" ytl="440.99" xbr="982.68" ybr="465.90" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+  </image>
+  <image id="4" name="00108.png" width="1360" height="800">
+  </image>
+  <image id="5" name="00206.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="826.87" ytl="471.18" xbr="847.10" ybr="492.70" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1161.51" ytl="198.03" xbr="1225.47" ybr="261.99" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="1146.10" ytl="118.80" xbr="1233.95" ybr="196.90" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="61.20" ytl="109.00" xbr="137.01" ybr="182.98" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="55.91" ytl="9.00" xbr="164.13" ybr="102.83" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+  </image>
+  <image id="6" name="00223.png" width="1360" height="800">
+    <box label="traffic_sign" source="manual" occluded="0" xtl="816.06" ytl="334.83" xbr="858.70" ybr="373.09" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="817.72" ytl="373.03" xbr="858.75" ybr="394.38" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+    <box label="traffic_sign" source="manual" occluded="0" xtl="825.40" ytl="394.38" xbr="854.67" ybr="410.22" z_order="0">
+      <attribute name="sign_family">__undefined__</attribute>
+      <attribute name="sign_class">__undefined__</attribute>
+      <attribute name="readable">uncertain</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="relevant_to_ego">unknown</attribute>
+    </box>
+  </image>
+</annotations>

@@ -1,0 +1,11 @@
+task: drivable
+sha256: b22a1b4ea2f366132be884f89b5f80f0a51331eb0daf39db5f0bc23467db8843
+code: B22A-1B4E
+locked_at: 2026-09-27T05:21:45+07:00
+shapes: drivable_area=9
+cvat_owner: labrat2060
+cvat_export: task 16 "drivable-DinhMinhHoang"
+cvat_created: 2026-09-26 03:47:00.616854+00:00
+cvat_dumped: 2026-09-26 22:15:44.573839+00:00
+shape_sources: manual=9
+relock_count: 0

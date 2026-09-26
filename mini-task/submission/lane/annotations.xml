@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>15</id>
+      <name>lane-DinhMinhHoang</name>
+      <size>6</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-09-26 03:46:49.156588+00:00</created>
+      <updated>2026-09-26 05:12:17.963441+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>5</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>6</id>
+          <start>0</start>
+          <stop>5</stop>
+          <url>http://localhost:8080/api/tasks/15/dataset/export/api/jobs/6</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>labrat2060</username>
+        <email>hoangdinh1529@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>lane_marking</name>
+          <color>#FF6F00</color>
+          <type>polyline</type>
+          <attributes>
+            <attribute>
+              <name>laneTypes</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+crosswalk
+double other
+double white
+double yellow
+road curb
+single other
+single white
+single yellow</values>
+            </attribute>
+            <attribute>
+              <name>laneStyle</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+solid
+dashed</values>
+            </attribute>
+            <attribute>
+              <name>laneDirection</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+parallel
+vertical</values>
+            </attribute>
+            <attribute>
+              <name>visibility</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>visible</default_value>
+              <values>visible
+partially_occluded
+faded
+truncated</values>
+            </attribute>
+            <attribute>
+              <name>needs_review</name>
+              <mutable>False</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>image_context</name>
+          <color>#AA00FF</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>weather</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+clear
+partly cloudy
+overcast
+rainy
+snowy
+foggy
+undefined</values>
+            </attribute>
+            <attribute>
+              <name>timeofday</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>__undefined__</default_value>
+              <values>__undefined__
+daytime
+dawn/dusk
+night
+undefined</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-09-26 22:15:01.886906+00:00</dumped>
+  </meta>
+  <image id="0" name="b75f355e-b3f098b9.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="343.84,565.91;457.05,485.14;507.44,452.01;541.96,429.92;570.95,410.59" z_order="0">
+      <attribute name="laneTypes">double yellow</attribute>
+      <attribute name="laneStyle">solid</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+  </image>
+  <image id="1" name="bb890202-d9d48310.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="0.00,439.17;170.95,387.89;278.94,359.02;380.51,331.22;455.36,310.91" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="859.52,533.30;701.28,401.79;632.10,337.00;611.46,314.01" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="128.61,351.44;181.07,343.15;251.48,332.11;314.30,321.06" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1279.07,471.20;1214.37,453.63;1088.98,420.88;1012.31,400.12;934.83,379.35;870.14,361.78;732.00,323.40;717.60,321.40;691.48,313.22;669.51,305.95;652.18,297.49;648.19,293.25;647.47,291.58;646.75,289.90;646.83,288.06;647.07,286.22;648.43,284.95;649.94,283.83;651.78,283.51" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="246.86,549.34;405.10,411.41;478.88,351.54;519.51,321.60" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+  </image>
+  <image id="2" name="c0f739d8-6ff93525.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="28.85,584.09;155.01,528.49;289.74,470.75;365.65,433.33;447.98,398.05;488.82,377.41;516.84,365.54;537.69,355.39" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="890.80,604.20;792.16,513.42;717.31,442.85;668.67,399.54;646.32,380.19;634.77,371.00;620.66,358.06;614.24,352.82;612.75,351.64;611.78,350.47;610.82,349.18;611.03,347.69;612.32,345.23;613.39,344.05;614.67,342.88;616.06,341.81;617.34,340.84;618.63,339.88;619.91,339.13;621.30,338.38;623.12,337.96" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+  </image>
+  <image id="3" name="c1589305-200e315b.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="892.42,323.69;776.55,322.70;553.56,325.32" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="0.75,464.12;37.70,450.70" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="299.00,545.10;420.70,442.20" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="964.16,525.73;833.20,434.30" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="40.62,450.65;420.43,442.33;831.65,434.01;1265.98,436.78" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1280.00,445.12;1265.00,436.50" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1249.50,376.90;259.80,386.80" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+  </image>
+  <image id="4" name="c3cd6c82-b5d52beb.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="1279.94,451.79;1136.66,420.21;1047.30,401.72;942.15,380.15;832.57,358.58;745.79,343.41;702.00,334.97;681.62,332.97" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="469.48,584.13;506.75,506.13;535.05,443.31;555.62,392.92;562.32,362.20;562.32,346.19;558.73,337.91;547.13,329.07" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1275.12,607.29;1000.34,485.40;868.82,427.66;805.74,399.86;720.84,366.61;681.60,351.96" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+  </image>
+  <image id="5" name="c95fecc3-41401a5f.jpg" width="1280" height="720">
+    <polyline label="lane_marking" source="manual" occluded="0" points="734.85,440.12;710.15,422.66;707.79,420.68;707.69,419.08;707.79,417.57;709.00,416.48;710.50,415.29;713.49,414.29;718.90,412.69;731.30,410.78" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="1043.71,670.72;970.72,612.58;864.33,535.88;812.87,498.89;739.38,443.71" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="2.13,481.66;240.94,455.31;387.90,436.94;590.60,415.29;630.70,411.06;663.84,404.11" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+    <polyline label="lane_marking" source="manual" occluded="0" points="283.58,665.79;530.01,501.50;607.33,453.87;654.27,425.78;668.62,416.88" z_order="0">
+      <attribute name="laneTypes">__undefined__</attribute>
+      <attribute name="laneStyle">__undefined__</attribute>
+      <attribute name="laneDirection">__undefined__</attribute>
+      <attribute name="visibility">visible</attribute>
+      <attribute name="needs_review">false</attribute>
+    </polyline>
+  </image>
+</annotations>

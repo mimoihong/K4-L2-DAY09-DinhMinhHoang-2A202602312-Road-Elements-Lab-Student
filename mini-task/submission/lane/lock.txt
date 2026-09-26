@@ -1,0 +1,11 @@
+task: lane
+sha256: 62759e06a03f374da8350fbeb3470dffdd3ba092053dbbc7f1928876a0a42e69
+code: 6275-9E06
+locked_at: 2026-09-27T05:21:10+07:00
+shapes: lane_marking=22
+cvat_owner: labrat2060
+cvat_export: task 15 "lane-DinhMinhHoang"
+cvat_created: 2026-09-26 03:46:49.156588+00:00
+cvat_dumped: 2026-09-26 22:15:01.886906+00:00
+shape_sources: manual=22
+relock_count: 0

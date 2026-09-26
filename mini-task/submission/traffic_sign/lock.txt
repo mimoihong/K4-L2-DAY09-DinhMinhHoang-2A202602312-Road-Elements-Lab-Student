@@ -1,0 +1,11 @@
+task: traffic_sign
+sha256: 3393be0e70818f2af4c319ea819eec391b7a9d66daeb9fa20614160d6022c2bd
+code: 3393-BE0E
+locked_at: 2026-09-27T05:22:12+07:00
+shapes: traffic_sign=27
+cvat_owner: labrat2060
+cvat_export: task 17 "traffic_sign-DinhMinhHoang"
+cvat_created: 2026-09-26 03:47:06.219619+00:00
+cvat_dumped: 2026-09-26 22:16:01.064986+00:00
+shape_sources: manual=27
+relock_count: 0

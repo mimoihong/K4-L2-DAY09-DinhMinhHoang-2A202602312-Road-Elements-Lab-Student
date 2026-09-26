@@ -90,10 +90,21 @@ Khi gặp các trường hợp không thể phân xử bằng mắt thường:
 
 | sample_id | Thấy gì trong ảnh | Expected output | Rule áp dụng |
 |---|---|---|---|
-| `LISA01` | Cụm 3 đèn treo trên giá ngang, đèn giữa và phải màu xanh tròn, làn mình đi thẳng | 3 Bbox riêng: `traffic_light`, `state=green`, `pictogram=circle`, `relevance=relevant` | Mục 2 & 4.3 (POV relevance) |
-| `BDD07` | Đèn ngã tư ban ngày, cụm đèn có mũi tên rẽ trái màu đỏ, xe mình ở làn đi thẳng | 1 Bbox: `traffic_light`, `state=red`, `pictogram=arrow_left`, `relevance=not_relevant` | Mục 4.2 & 4.3 (Đèn rẽ làn phụ) |
-| `BDD18` | Trời tối, 2 đầu đèn sáng xanh, nhìn thấy mờ mờ khung vỏ hộp đèn | 2 Bbox: bao đủ cả chiều cao 3 ô đèn của hộp, `state=green` | Mục 3 (Quy tắc ban đêm thấy vỏ) |
-| `BDD26` | Trời tối đen kịt, đèn xa chỉ thấy đúng 1 đốm đỏ phát sáng, vỏ đèn chìm vào nền tối | 1 Bbox: ôm sát quầng sáng đỏ, `state=red`, `needs_review=false` | Mục 3 (Quy tắc ban đêm không thấy vỏ) |
+| `red_circle` | Đèn đỏ tròn tiêu chuẩn trên giá treo | Bbox ôm sát vỏ đèn, `state=red`, `pictogram=circle`, `relevance=relevant` | Mục 2 & 3 & 4.1 |
+| `green_arrow` | Đèn xanh mũi tên rẽ | Bbox ôm sát vỏ đèn, `state=green`, `pictogram=arrow_left/right`, `relevance` theo làn | Mục 4.2 & 4.3 |
+| `not_relevant` | Cụm đèn ngã tư điều khiển các luồng rẽ khác nhau | Phân định rõ đèn làn mình (`relevant`) và đèn làn phụ/rẽ (`not_relevant`) | Mục 4.3 (POV relevance) |
+
+### Minh họa trực quan từ CVAT
+
+#### 1. Đèn đỏ tròn tiêu chuẩn (`state=red`, `pictogram=circle`, `relevance=relevant`):
+![Đèn đỏ tròn tiêu chuẩn](red_circle.jpeg)
+
+#### 2. Đèn xanh mũi tên định hướng (`state=green`, `pictogram=arrow`):
+![Đèn xanh mũi tên](green_arrow.jpeg)
+
+#### 3. Phân định POV Relevance tại ngã tư (`relevant` vs `not_relevant`):
+![Phân định POV Relevance](not_relevant.jpeg)
+
 
 ## 10. Common mistakes
 
