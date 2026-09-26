@@ -1,1 +1,11 @@
 sample_id,decision_id,expected,severity,rationale
+BDD25,d1,label=traffic_light x1,major,Nhận diện đúng cụm đèn giao thông trên cột
+BDD25,d2,state=green,critical,Đèn xanh phát sáng rõ ràng kiểm tra an toàn hành vi xe
+BDD25,d3,relevance=relevant,critical,Đèn nằm ngay trên làn di chuyển của xe chủ
+BDD26,d1,label=traffic_light x1,major,Phát hiện đèn giao thông ban đêm
+BDD26,d2,state=red,critical,Đèn đỏ ban đêm là tín hiệu an toàn bắt buộc phải dừng
+BDD26,d3,geometry: box ôm sát quầng sáng đỏ không đoán vỏ,minor,Tuân thủ rule ban đêm tối hoàn toàn không thấy vỏ
+BDD12,d1,IGNORE,major,Đèn bị che khuất > 80% diện tích theo rule loại trừ
+BDD17,d1,label=traffic_light x1,major,Phát hiện đèn trong điều kiện trời mưa
+BDD17,d2,needs_review=true,major,Kích hoạt escalation khi tầm nhìn bị mờ lóa do mưa
+BDD17,d3,relevance=relevant,critical,Xác định đúng đèn liên quan đến xe chủ

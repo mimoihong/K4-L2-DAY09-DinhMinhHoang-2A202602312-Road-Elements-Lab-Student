@@ -1,1 +1,13 @@
 sample_id,split,tags,reason
+BDD01,example,normal,Ví dụ cụm đèn chuẩn trên đường cao tốc ban ngày
+BDD02,example,normal,Ví dụ ngã tư thành phố với vạch kẻ đường rõ ràng
+LISA01,example,temporal,Ví dụ góc nhìn ngã tư ban ngày nhiều làn
+BDD07,calibration,normal;conflict,Ảnh ngã tư có đèn rẽ trái và đèn đi thẳng
+BDD10,calibration,normal,Ảnh đường phố thành phố ban ngày có nhiều đèn
+BDD13,calibration,edge;small_far,Đèn ở khoảng cách xa kiểm tra ngưỡng kích thước
+BDD18,calibration,critical,Trường hợp ban đêm thiếu sáng thấy lờ mờ khung vỏ
+BDD22,calibration,ambiguity;low_visibility,Chạng vạng chói lóa kiểm tra rule unknown
+BDD25,blind,normal,Ảnh kiểm tra blind nhận diện trạng thái đèn cơ bản
+BDD26,blind,edge;critical,Ảnh ban đêm tối hoàn toàn kiểm tra rule không đoán vỏ
+BDD12,blind,edge;occlusion;critical,Đèn bị xe hoặc bóng cây che một phần kiểm tra bẫy
+BDD17,blind,ambiguity;low_visibility,Trời mưa lóa đèn kiểm tra escalation needs_review
